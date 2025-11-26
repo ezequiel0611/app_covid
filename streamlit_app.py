@@ -1,15 +1,15 @@
 import streamlit as st
 import matplotlib.pyplot as plt
-import plotly.express
+#import plotly.express
 
-st.balloons()
+#st.balloons()
 
-st.title("Hola Mundo...UPRH")
+#st.title("Hola Mundo...UPRH")
 
-import streamlit as st 
+#import streamlit as st 
 import pandas as pd 
 import numpy as np 
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 
 ####################
@@ -31,11 +31,11 @@ fig, ax = plt.subplots()
 ######### 
 col1, col2, col3 = st.columns([1,3,1])
 
-col1.image("",width=150)
+col1.image("https://github.com/elioramospr/hola_streamlit_mj/blob/main/logouprh.png?raw=true",width=150)
 
 col2.title("Datos de Covid-Variante Omicron")
 
-col3.image("",width=150)
+col3.image("https://github.com/elioramospr/hola_streamlit_mj/blob/main/covid.png?raw=true",width=150)
 ##############################################
 ## esto es para que salga una linea horizontal
 ############################################## 
